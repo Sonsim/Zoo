@@ -1,0 +1,23 @@
+﻿Task Description:
+
+Create a console application that simulates a zoo. This application should include classes for Animal, Zookeeper, and Zoo.
+
+Animal Class: This class should have properties like Name, 
+Species, Age, and HealthStatus. It should also have methods to set and get these properties.
+Additionally, it should have a method MakeSound() that prints a sound that the animal makes.
+
+Zookeeper Class: This class should have properties like Name and AssignedAnimals (a list of animals assigned to the zookeeper). 
+It should also have methods to set and get these properties,
+as well as a method to feed an animal (FeedAnimal) and a method to clean an animal's enclosure (CleanEnclosure).
+
+Zoo Class: This class should have properties like Name and Animals (a list of all animals in the zoo). 
+It should also have methods to set and get these properties, as well as methods to add an animal to the zoo (AddAnimal),
+remove an animal from the zoo (RemoveAnimal), and assign a zookeeper to an animal (AssignZookeeperToAnimal).
+
+The Animal class should inherit from a base class called LivingBeing, which includes common properties like Name and HealthStatus. 
+The Zookeeper and Zoo classes should contain instances of the Animal class.
+
+Remember to use appropriate access modifiers (public, private, protected) 
+to encapsulate your data and ensure that it can only be accessed through your class methods.
+
+This task should give you a good understanding of how to use classes, objects, and inheritance in C#. Good luck with your codealong!
